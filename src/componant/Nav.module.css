@@ -1,0 +1,48 @@
+/* Navbar.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f0f0;
+  padding: 20px 20px;
+  color: #3f3838;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  padding: 30px;
+  font-weight: 100;
+ 
+}
+
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+  }
+
+  .title {
+      margin-bottom: 10px;
+      font-family: serif;
+  }
+}
+
+/* Additional media query for full-screen */
+@media (min-width: 1200px) {
+  .navbar {
+      padding: 20px 40px;
+  }
+
+  .title {
+      font-size: 3rem;
+  }
+
+  .link {
+      font-size: 1.2rem;
+  }
+}
